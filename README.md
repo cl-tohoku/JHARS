@@ -33,7 +33,7 @@ This dataset includes:
     "id": number,            // Unique identifier for each QA pair
     "question": string,      // Question in Japanese
     "reference_text": string,// Reference text used to generate answer
-    "[model_name]": {        // Model response object (gpt-4o, gpt-4o-mini, etc.)
+    "[model_name]": {        // Model response object (gpt-4o, gpt-4o-mini, Llama-3.1-Swallow-8B-Instruct-v0.1)
         "response": string,  // Model's answer in Japanese
         "annotations": {     // Annotation data
             "aggregated": {  // Consensus from multiple annotators
