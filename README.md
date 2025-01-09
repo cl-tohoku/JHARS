@@ -8,7 +8,7 @@ Hallucination is a critical challenge in the practical application of Large Lang
 
 ### Key Features
 
-- Annotations on 450 Japanese LLM responses in RAG settings
+- Sentence level annotations on 450 Japanese LLM responses in RAG settings
 - Evaluation of multiple state-of-the-art models (including GPT-4o)
 - Performance assessment of hallucination detection methods
 
