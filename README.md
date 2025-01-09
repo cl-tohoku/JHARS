@@ -57,10 +57,20 @@ This dataset includes:
 }
 ```
 
-- Note on hallucination types:
+Note on hallucination types:
   - "No_hallucination": No hallucination detected
   - "Contradictory": Intrinsic hallucination - content that contradicts the reference text
+  - "Contradictory_uncertain": Annotator uncertain about contradiction with reference
   - "Unverifiable": Extrinsic hallucination - content that cannot be verified using the reference text
+  - "Unverifiable_uncertain": Annotator uncertain about verifiability from reference
+
+
+The dataset includes two evaluation settings for hallucination types:
+- Relaxed setting: Treats uncertain cases as their base types
+  - "Contradictory_uncertain" → "Contradictory"
+  - "Unverifiable_uncertain" → "Unverifiable"
+- Strict setting: Maintains distinction between all five hallucination types listed above
+
 
 ## Usage
 
